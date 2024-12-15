@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree';
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    background: var(--Yellow);
+}
+
+.container {
+    padding: 1.25rem;
+    display: block;
+    background-color: white;
+    margin: 80px auto;
+    max-width: 550px;
+    border: 1px solid; 
+    border-radius: 1rem;
+    box-shadow: 10px 10px black;
+}
