@@ -46,6 +46,11 @@ body {
 fieldset {
     margin-top: 1rem;
     border-style: none;
+    display: flex;
+    flex-direction: column;
+}
+fieldset label {
+    margin-top: .2rem;
 }
 
 .suggestion {
