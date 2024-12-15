@@ -76,4 +76,10 @@ fieldset label {
     background-color: var(--Yellow);
     border: 1px solid; 
     box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px var(--Yellow);
 }
