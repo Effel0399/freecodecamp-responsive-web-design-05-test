@@ -42,3 +42,18 @@ body {
     border-radius: 1rem;
     box-shadow: 10px 10px black;
 }
+
+fieldset {
+    margin-top: 1rem;
+    border-style: none;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.suggestion textarea {
+    margin-top: .5rem;
+}
